@@ -1,6 +1,3 @@
-Here’s a clear and professional **README.md** file you can include with your **Journalyzer - Keyword Analysis** script 👇
-
----
 
 # 🧾 Journalyzer - Keyword Analysis
 
