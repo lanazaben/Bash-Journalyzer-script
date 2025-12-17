@@ -1,0 +1,7 @@
+Oct 19 14:52:52 kali obexd[1706]: OBEX daemon 5.82
+Oct 19 14:52:52 kali obexd[1706]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Oct 19 14:52:52 kali obexd[1706]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Oct 19 15:12:01 kali obexd[1706]: Terminating
+Oct 20 11:51:44 kali obexd[1799]: OBEX daemon 5.82
+Oct 20 11:51:44 kali obexd[1799]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Oct 20 11:51:44 kali obexd[1799]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.

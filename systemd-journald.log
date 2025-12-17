@@ -1,0 +1,17 @@
+Oct 19 14:52:40 kali systemd-journald[512]: Collecting audit messages is disabled.
+Oct 19 14:52:40 kali systemd-journald[512]: Journal started
+Oct 19 14:52:40 kali systemd-journald[512]: Runtime Journal (/run/log/journal/42e7dcfd24f643b38df600febae50cfa) is 8M, max 189.5M, 181.5M free.
+Oct 19 14:52:40 kali systemd-journald[512]: Time spent on flushing to /var/log/journal/42e7dcfd24f643b38df600febae50cfa is 5.623ms for 1288 entries.
+Oct 19 14:52:40 kali systemd-journald[512]: System Journal (/var/log/journal/42e7dcfd24f643b38df600febae50cfa) is 8M, max 4G, 3.9G free.
+Oct 19 14:52:40 kali systemd-journald[512]: Received client request to flush runtime journal.
+Oct 19 11:53:11 kali systemd-journald[512]: Time jumped backwards, rotating.
+Oct 19 15:12:02 kali systemd-journald[512]: Received SIGTERM from PID 1 (systemd-shutdow).
+Oct 19 15:12:02 kali systemd-journald[512]: Journal stopped
+-- Boot 5db5160a5db545aead197b492f537074 --
+Oct 20 11:51:32 kali systemd-journald[509]: Collecting audit messages is disabled.
+Oct 20 11:51:32 kali systemd-journald[509]: Journal started
+Oct 20 11:51:32 kali systemd-journald[509]: Runtime Journal (/run/log/journal/42e7dcfd24f643b38df600febae50cfa) is 8M, max 189.6M, 181.6M free.
+Oct 20 11:51:32 kali systemd-journald[509]: Time spent on flushing to /var/log/journal/42e7dcfd24f643b38df600febae50cfa is 16.173ms for 1270 entries.
+Oct 20 11:51:32 kali systemd-journald[509]: System Journal (/var/log/journal/42e7dcfd24f643b38df600febae50cfa) is 24.3M, max 4G, 3.9G free.
+Oct 20 11:51:32 kali systemd-journald[509]: Received client request to flush runtime journal.
+Oct 20 08:52:04 kali systemd-journald[509]: Time jumped backwards, rotating.

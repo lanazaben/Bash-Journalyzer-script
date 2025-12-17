@@ -1,0 +1,4 @@
+Oct 19 14:52:43 kali wireplumber[1141]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Oct 19 14:52:51 kali wireplumber[1256]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Oct 20 11:51:36 kali wireplumber[1239]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+Oct 20 11:51:44 kali wireplumber[1348]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner

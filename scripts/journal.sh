@@ -179,14 +179,14 @@ while read -r s; do
     echo >> "$summary_file"
 
     # Store error logs in separate file
-    error_log_file="../${s}_errors.log"
+    error_log_file="../${s}.errors.log"
     grep -iE "error|fail|failed|critical|alert" "$log_file" > "$error_log_file" || echo "No error entries found." > "$error_log_file"
 
     echo "Error Log Entries saved to: $error_log_file" >> "$summary_file"
     echo >> "$summary_file"
 
     # Store full logs in separate file
-    full_log_file="../${s}_full.log"
+    full_log_file="../${s}.full.log"
     cp "$log_file" "$full_log_file"
     echo "Full Log Entries saved to: $full_log_file" >> "$summary_file"
     echo >> "$summary_file"
