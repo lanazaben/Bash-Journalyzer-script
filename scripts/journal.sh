@@ -88,7 +88,6 @@ while read -r s; do
         fi
     fi
 
-    # ❌ REMOVE EMPTY LOG FILES
     if [ ! -s "$log_output" ]; then
         rm -f "$log_output"
     fi
