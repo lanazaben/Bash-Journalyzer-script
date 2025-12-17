@@ -1,8 +1,0 @@
-Oct 19 14:52:40 kali systemd-random-seed[528]: Kernel entropy pool is not initialized yet, waiting until it is.
-Oct 19 14:52:41 kali systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
-Oct 19 15:12:01 kali systemd[1]: Stopping systemd-random-seed.service - Load/Save OS Random Seed...
-Oct 19 15:12:01 kali systemd[1]: systemd-random-seed.service: Deactivated successfully.
-Oct 19 15:12:01 kali systemd[1]: Stopped systemd-random-seed.service - Load/Save OS Random Seed.
--- Boot 5db5160a5db545aead197b492f537074 --
-Oct 20 11:51:32 kali systemd-random-seed[532]: Kernel entropy pool is not initialized yet, waiting until it is.
-Oct 20 11:51:33 kali systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.

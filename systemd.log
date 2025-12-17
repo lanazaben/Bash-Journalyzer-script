@@ -1,3 +1,0 @@
-Oct 19 14:52:40 kali systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
--- Boot 5db5160a5db545aead197b492f537074 --
-Oct 20 11:51:32 kali systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
