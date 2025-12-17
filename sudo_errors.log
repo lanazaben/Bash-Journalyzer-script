@@ -1,4 +1,0 @@
-Oct 27 15:28:22 kali sudo[341757]: lanazaben : TTY=pts/6 ; PWD=/home/lanazaben ; USER=root ; COMMAND=/usr/bin/cat /var/log/journalyzer/reports/error.log
-Oct 27 15:50:05 kali sudo[354557]: lanazaben : TTY=pts/6 ; PWD=/home/lanazaben ; USER=root ; COMMAND=/usr/bin/cat /var/log/journalyzer/reports/error.log
-Nov 16 11:33:45 kali sudo[736945]: pam_unix(sudo:auth): authentication failure; logname=lanazaben uid=1000 euid=0 tty=/dev/pts/8 ruser=lanazaben rhost=  user=lanazaben
-Dec 01 15:34:01 kali sudo[518812]: pam_unix(sudo:auth): authentication failure; logname=lanazaben uid=1000 euid=0 tty=/dev/pts/19 ruser=lanazaben rhost=  user=lanazaben

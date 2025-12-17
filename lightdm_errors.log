@@ -1,3 +1,0 @@
-Oct 19 14:52:42 kali lightdm[1078]: Could not enumerate user data directory /var/lib/lightdm/data: Error opening directory '/var/lib/lightdm/data': No such file or directory
-Oct 19 14:52:50 kali lightdm[1216]: Failed to write utmpx: No such file or directory
-Oct 20 11:51:44 kali lightdm[1308]: Failed to write utmpx: No such file or directory

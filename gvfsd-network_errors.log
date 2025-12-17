@@ -1,2 +1,0 @@
-Nov 02 10:31:26 kali gvfsd-network[416063]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
-Nov 02 10:31:26 kali gvfsd-network[416063]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: mountpoint for org.gtk.vfs.mountpoint_wsdd already running
