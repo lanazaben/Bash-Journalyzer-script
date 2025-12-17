@@ -1,0 +1,7 @@
+Oct 19 14:52:42 kali systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+Oct 19 14:52:43 kali systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+Oct 19 15:12:01 kali systemd[1]: NetworkManager-wait-online.service: Deactivated successfully.
+Oct 19 15:12:01 kali systemd[1]: Stopped NetworkManager-wait-online.service - Network Manager Wait Online.
+-- Boot 5db5160a5db545aead197b492f537074 --
+Oct 20 11:51:34 kali systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+Oct 20 11:51:34 kali systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.

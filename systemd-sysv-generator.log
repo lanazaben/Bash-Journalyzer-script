@@ -1,0 +1,24 @@
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: SysV service '/etc/init.d/dns2tcp' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: Please update package to include a native systemd unit file.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: Please update package to include a native systemd unit file.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: SysV service '/etc/init.d/inetsim' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: Please update package to include a native systemd unit file.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: SysV service '/etc/init.d/ptunnel' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: Please update package to include a native systemd unit file.
+Oct 19 14:52:40 kali systemd-sysv-generator[489]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: SysV service '/etc/init.d/dns2tcp' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: Please update package to include a native systemd unit file.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: SysV service '/etc/init.d/stunnel4' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: Please update package to include a native systemd unit file.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: SysV service '/etc/init.d/inetsim' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: Please update package to include a native systemd unit file.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: ! This compatibility logic is deprecated, expect removal soon. !
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: SysV service '/etc/init.d/ptunnel' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: Please update package to include a native systemd unit file.
+Oct 20 11:51:32 kali systemd-sysv-generator[486]: ! This compatibility logic is deprecated, expect removal soon. !

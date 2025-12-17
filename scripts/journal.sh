@@ -1,13 +1,8 @@
-#!/bin/bash
-# ===========================
 # Journalyzer - Keyword Analysis
-# ===========================
 
 conf="journalyzer.conf"
 
-# ===========================
 # Configuration Validation
-# ===========================
 if [ ! -f "$conf" ]; then
     echo "ERROR: Configuration file $conf not found."
     exit 1
@@ -15,7 +10,6 @@ fi
 
 # --- READ CONFIG VALUES ---
 ONLINE_TIME=$(grep -i "^ONLINE_TIME" "$conf" | cut -d "=" -f2 | xargs)
-directory=$(grep -i "^REPORT_DIR" "$conf" | cut -d "=" -f2 | tr -d '"' | xargs)
 threshold=$(grep -i "^ALERT_THRESHOLD" "$conf" | cut -d "=" -f2 | tr -d ' ')
 offlineDirectory=$(grep -i "^DIRECTORY" "$conf" | cut -d "=" -f2 | xargs)
 
@@ -25,25 +19,13 @@ if [[ -z "$ONLINE_TIME" ]]; then
     sed -i "s/^ONLINE_TIME=.*/ONLINE_TIME=$ONLINE_TIME/" "$conf"
 fi
 
-# --- Validate ---
-if [ -z "$directory" ]; then
-    echo "ERROR: Missing REPORT_DIR in $conf."
-    exit 1
-fi
-
-mkdir -p "$directory"
-
-# ===========================
 # Mode Selection
-# ===========================
 echo "Select mode:"
 echo "1) Online  - Fetch logs using journalctl"
 echo "2) Offline - Use local .journal files"
 read -p "Enter choice (1 or 2): " mode
 
-# ===========================
 # OFFLINE MODE
-# ===========================
 if [ -d "../offline_logs_styleB" ] ; then
 	sudo rm -r ../offline_logs_styleB
 	echo "directory deleted"
@@ -65,55 +47,56 @@ if [ "$mode" = "2" ]; then
     exit 0
 fi
 
-# ===========================
 # ONLINE MODE
-# ===========================
-echo "Online mode activated..."
-echo "Using ONLINE_TIME (epoch): $ONLINE_TIME"
-echo "Actual since time: $(date -d "@$ONLINE_TIME")"
-echo
-echo "Extracting services from system logs..."
-
 online_raw="onlineJournal.txt"
 online_services="dynamic_services.txt"
 
-journalctl --since="@$ONLINE_TIME" > "$online_raw"
+journalctl --no-pager > "$online_raw"
 
-awk '{print $5}' "$online_raw" \
-    | sed 's/\[.*//g' | sed 's/://g' \
-    | sed 's/[^a-zA-Z0-9_.-]//g' \
-    | sed 's/^$/unknown/' \
-    | sort -u > "$online_services"
+awk '
+{
+    svc=$5
+    gsub(/\[.*\]/,"",svc)   # remove [PID]
+    gsub(/:/,"",svc)        # remove trailing :
+    if (svc ~ /^[a-zA-Z0-9_.-]+$/)
+        print svc
+}
+' "$online_raw" | sort -u > "$online_services"
+
+if [ ! -s "$online_services" ]; then
+    echo "No services discovered in online logs."
+    exit 0
+fi
 
 echo "→ Discovered $(wc -l < "$online_services") unique services."
 echo
-
-# ===========================
 # Phase 1: Extract service logs
-# ===========================
 while read -r s; do
     [ -z "$s" ] && continue
-    log_output="$directory/$s.log"
+    log_output="../$s.log"
 
-    echo "Processing service: $s ..."
+    echo "Processing service: $s"
 
     if systemctl list-units --all --type=service | grep -q "^$s\.service"; then
-        journalctl -u "$s" --since="@$ONLINE_TIME" > "$log_output"
-
+        journalctl -u "$s"  --no-pager > "$log_output"
     else
-        unit=$(systemctl list-units --all | grep -i "$s" | head -1 | awk '{print $1}')
+        unit=$(systemctl list-units --all | awk '{print $1}' | grep -i "^$s" | head -1)
         if [ -n "$unit" ]; then
-            echo " → Using systemd unit: $unit"
-            journalctl -u "$unit" --since="@$ONLINE_TIME" > "$log_output"
+            journalctl -u "$unit" --no-pager > "$log_output"
         else
-            journalctl --since="@$ONLINE_TIME" | grep -i "$s" > "$log_output"
+            journalctl  --no-pager | grep -i " $s" > "$log_output"
         fi
     fi
+
+    # ❌ REMOVE EMPTY LOG FILES
+    if [ ! -s "$log_output" ]; then
+        rm -f "$log_output"
+    fi
+
 done < "$online_services"
 
-# ===========================
+
 # READ KEYWORDS
-# ===========================
 keywords_raw=""
 err_vals=$(grep -i "^ERROR:" "$conf" | cut -d ":" -f2- | tr ',' ' ' | xargs)
 warn_vals=$(grep -i "^WARNING:" "$conf" | cut -d ":" -f2- | tr ',' ' ' | xargs)
@@ -131,10 +114,8 @@ if [ ${#keyword_list[@]} -eq 0 ]; then
     echo "WARNING: No keywords found."
 fi
 
-# ===========================
 # Phase 2: Keyword Analysis
-# ===========================
-csv_report="$directory/keyword_analysis.csv"
+csv_report="../keyword_analysis.csv"
 echo "No.,Service,Keyword,Count" > "$csv_report"
 
 printf "\n%-5s %-22s %-22s %-10s\n" "No." "Service" "Keyword" "Count"
@@ -144,7 +125,7 @@ serial=1
 total_count=0
 
 while read -r s; do
-    log_file="$directory/$s.log"
+    log_file="../$s.log"
     [ ! -s "$log_file" ] && continue
 
     for key in "${keyword_list[@]}"; do
@@ -156,9 +137,7 @@ while read -r s; do
     done
 done < "$online_services"
 
-# ===========================
 # Alert Check
-# ===========================
 echo
 echo "Total occurrences: $total_count"
 echo "Alert threshold: $threshold"
@@ -168,16 +147,14 @@ if [ "$total_count" -gt "$threshold" ]; then
     echo "ALERT: Threshold exceeded!"
 fi
 
-# ===========================
 # Phase 4: Summary Report
-# ===========================
-summary_file="$directory/summary-$(date +%F).txt"
+summary_file="../summary-$(date +%F).txt"
 echo " Journalyzer Summary Report - $(date)" > "$summary_file"
 echo "==========================================" >> "$summary_file"
 echo >> "$summary_file"
 
 while read -r s; do
-    log_file="$directory/$s.log"
+    log_file="../$s.log"
     [ ! -f "$log_file" ] && continue
 
     echo "Service: $s" >> "$summary_file"
@@ -202,14 +179,14 @@ while read -r s; do
     echo >> "$summary_file"
 
     # Store error logs in separate file
-    error_log_file="$directory/${s}_errors.log"
+    error_log_file="../${s}_errors.log"
     grep -iE "error|fail|failed|critical|alert" "$log_file" > "$error_log_file" || echo "No error entries found." > "$error_log_file"
 
     echo "Error Log Entries saved to: $error_log_file" >> "$summary_file"
     echo >> "$summary_file"
 
     # Store full logs in separate file
-    full_log_file="$directory/${s}_full.log"
+    full_log_file="../${s}_full.log"
     cp "$log_file" "$full_log_file"
     echo "Full Log Entries saved to: $full_log_file" >> "$summary_file"
     echo >> "$summary_file"

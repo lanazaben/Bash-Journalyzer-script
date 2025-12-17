@@ -1,0 +1,23 @@
+Oct 19 14:52:41 kali systemd[1]: Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+Oct 19 14:52:41 kali (haveged)[717]: haveged.service: Referenced but unset environment variable evaluates to an empty string: DAEMON_ARGS
+Oct 19 14:52:41 kali haveged[717]: haveged: command socket is listening at fd 3
+Oct 19 14:52:41 kali haveged[717]: haveged starting up
+Oct 19 14:52:41 kali haveged[717]: haveged: ver: 1.9.19; arch: generic; vend: ; build: (gcc 14.2.0 CTV); collect: 128K
+Oct 19 14:52:41 kali haveged[717]: haveged: cpu: (VC); data: 64K (V); inst: 128K (V); idx: 39/40; sz: 66732/66732
+Oct 19 14:52:41 kali haveged[717]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00286
+Oct 19 14:52:41 kali haveged[717]: haveged: fills: 0, generated: 0
+Oct 19 15:12:02 kali haveged[717]: haveged: Stopping due to signal 15
+Oct 19 15:12:02 kali haveged[717]: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00286
+Oct 19 15:12:02 kali haveged[717]: fills: 1, generated: 512 K bytes, RNDADDENTROPY: 4.75 K bytes
+Oct 19 15:12:02 kali systemd[1]: Stopping haveged.service - Entropy Daemon based on the HAVEGE algorithm...
+Oct 19 15:12:02 kali systemd[1]: haveged.service: Deactivated successfully.
+Oct 19 15:12:02 kali systemd[1]: Stopped haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+-- Boot 5db5160a5db545aead197b492f537074 --
+Oct 20 11:51:33 kali systemd[1]: Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+Oct 20 11:51:33 kali (haveged)[709]: haveged.service: Referenced but unset environment variable evaluates to an empty string: DAEMON_ARGS
+Oct 20 11:51:33 kali haveged[709]: haveged: command socket is listening at fd 3
+Oct 20 11:51:33 kali haveged[709]: haveged starting up
+Oct 20 11:51:33 kali haveged[709]: haveged: ver: 1.9.19; arch: generic; vend: ; build: (gcc 14.2.0 CTV); collect: 128K
+Oct 20 11:51:33 kali haveged[709]: haveged: cpu: (VC); data: 64K (V); inst: 128K (V); idx: 39/40; sz: 66732/66732
+Oct 20 11:51:33 kali haveged[709]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 7.99761
+Oct 20 11:51:33 kali haveged[709]: haveged: fills: 0, generated: 0

@@ -1,0 +1,6 @@
+Oct 19 14:52:52 kali udisksd[1719]: udisks daemon version 2.10.90 starting
+Oct 19 14:52:52 kali udisksd[1719]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 19 15:12:01 kali udisksd[1719]: udisks daemon version 2.10.90 exiting
+Oct 20 11:51:44 kali udisksd[1797]: udisks daemon version 2.10.90 starting
+Oct 20 11:51:44 kali udisksd[1797]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 20 09:38:51 kali udisksd[1797]: Mounted /dev/sr0 (system) at /media/cdrom0 on behalf of uid 1000

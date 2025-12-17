@@ -1,0 +1,105 @@
+Oct 19 14:29:50 kali xfce4-screensaver-dialog[22579]: pam_unix(xfce4-screensaver:auth): conversation failed
+Oct 19 14:29:55 kali xfce4-screensaver-dialog[23197]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 19 15:02:25 kali xfce4-screensaver-dialog[39443]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 20 10:20:14 kali xfce4-screensaver-dialog[45676]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 20 10:36:33 kali xfce4-screensaver-dialog[54689]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 20 11:23:52 kali xfce4-screensaver-dialog[79404]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 20 12:08:45 kali xfce4-screensaver-dialog[105407]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 20 12:30:36 kali xfce4-screensaver-dialog[118108]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 26 21:25:44 kali xfce4-screensaver-dialog[161264]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 26 22:00:17 kali xfce4-screensaver-dialog[171692]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 26 22:10:50 kali xfce4-screensaver-dialog[176965]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 27 09:49:23 kali xfce4-screensaver-dialog[199607]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 27 13:39:56 kali xfce4-screensaver-dialog[283905]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 27 13:59:43 kali xfce4-screensaver-dialog[293538]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 27 14:09:19 kali xfce4-screensaver-dialog[297297]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Oct 31 21:53:55 kali xfce4-screensaver-dialog[367815]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 09:10:07 kali xfce4-screensaver-dialog[385525]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 09:16:34 kali xfce4-screensaver-dialog[388333]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 09:40:10 kali xfce4-screensaver-dialog[392925]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 09:56:37 kali xfce4-screensaver-dialog[401060]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 10:51:34 kali xfce4-screensaver-dialog[420970]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 02 15:52:21 kali xfce4-screensaver-dialog[442740]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 09:11:06 kali xfce4-screensaver-dialog[456953]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 09:29:32 kali xfce4-screensaver-dialog[463150]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 11:36:25 kali xfce4-screensaver-dialog[516775]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 11:45:58 kali xfce4-screensaver-dialog[521675]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 12:35:36 kali xfce4-screensaver-dialog[527603]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 09 20:15:48 kali xfce4-screensaver-dialog[565270]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 10 09:04:30 kali xfce4-screensaver-dialog[589024]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 10 09:49:37 kali xfce4-screensaver-dialog[596898]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 10 11:29:09 kali xfce4-screensaver-dialog[636689]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 10 11:55:15 kali xfce4-screensaver-dialog[643424]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 16 09:40:40 kali xfce4-screensaver-dialog[694023]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 16 11:28:35 kali xfce4-screensaver-dialog[734345]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 16 12:03:12 kali xfce4-screensaver-dialog[751778]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 16 13:42:17 kali xfce4-screensaver-dialog[774738]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 16 15:01:06 kali xfce4-screensaver-dialog[817573]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 09:45:44 kali xfce4-screensaver-dialog[833147]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 10:03:52 kali xfce4-screensaver-dialog[837579]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 10:17:28 kali xfce4-screensaver-dialog[846279]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 12:16:57 kali xfce4-screensaver-dialog[884046]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 12:25:28 kali xfce4-screensaver-dialog[890789]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 13:38:10 kali xfce4-screensaver-dialog[905143]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 17 14:51:27 kali xfce4-screensaver-dialog[946601]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 09:46:24 kali xfce4-screensaver-dialog[977340]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 09:56:01 kali xfce4-screensaver-dialog[982164]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 11:12:27 kali xfce4-screensaver-dialog[1019378]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 11:23:53 kali xfce4-screensaver-dialog[1024963]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 14:11:51 kali xfce4-screensaver-dialog[1034151]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 19 14:45:01 kali xfce4-screensaver-dialog[1042751]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 22 11:07:05 kali xfce4-screensaver-dialog[1193587]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 22 21:02:00 kali xfce4-screensaver-dialog[1198653]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 22 21:27:24 kali xfce4-screensaver-dialog[1211110]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 22 21:46:13 kali xfce4-screensaver-dialog[1220271]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 22 22:03:01 kali xfce4-screensaver-dialog[1228404]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 23 09:41:45 kali xfce4-screensaver-dialog[1696552]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 23 09:47:11 kali xfce4-screensaver-dialog[1699262]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 29 16:59:29 kali xfce4-screensaver-dialog[1856144]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 09:10:28 kali xfce4-screensaver-dialog[2016041]: pam_unix(xfce4-screensaver:auth): conversation failed
+Nov 30 09:13:15 kali xfce4-screensaver-dialog[2017952]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 10:03:54 kali xfce4-screensaver-dialog[2512561]: pam_unix(xfce4-screensaver:auth): conversation failed
+Nov 30 10:43:37 kali xfce4-screensaver-dialog[2526914]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 11:15:15 kali xfce4-screensaver-dialog[2539799]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 11:44:36 kali xfce4-screensaver-dialog[2793131]: pam_unix(xfce4-screensaver:auth): conversation failed
+Nov 30 11:45:25 kali xfce4-screensaver-dialog[2794116]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 13:30:24 kali xfce4-screensaver-dialog[3046568]: pam_unix(xfce4-screensaver:auth): conversation failed
+Nov 30 13:30:38 kali xfce4-screensaver-dialog[3047278]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 14:11:45 kali xfce4-screensaver-dialog[3470174]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 14:27:03 kali xfce4-screensaver-dialog[55104]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Nov 30 18:55:48 kali xfce4-screensaver-dialog[1988963]: pam_unix(xfce4-screensaver:auth): conversation failed
+Dec 01 09:20:12 kali xfce4-screensaver-dialog[2007365]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 01 10:41:12 kali xfce4-screensaver-dialog[2188587]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 01 11:09:53 kali xfce4-screensaver-dialog[2856105]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 01 12:18:17 kali xfce4-screensaver-dialog[455275]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 01 12:40:44 kali xfce4-screensaver-dialog[459529]: pam_unix(xfce4-screensaver:auth): conversation failed
+Dec 01 13:30:53 kali xfce4-screensaver-dialog[464517]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 01 15:33:50 kali xfce4-screensaver-dialog[518744]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 03 10:10:54 kali xfce4-screensaver-dialog[1437364]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 03 11:00:46 kali xfce4-screensaver-dialog[2195196]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 03 11:27:17 kali xfce4-screensaver-dialog[2205548]: pam_unix(xfce4-screensaver:auth): conversation failed
+Dec 06 20:48:41 kali xfce4-screensaver-dialog[2426047]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 06 20:56:10 kali xfce4-screensaver-dialog[2429673]: pam_unix(xfce4-screensaver:auth): authentication failure; logname=lanazaben uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=lanazaben
+Dec 06 20:56:10 kali xfce4-screensaver-dialog[2429673]: pam_winbind(xfce4-screensaver:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Dec 06 20:56:10 kali xfce4-screensaver-dialog[2429673]: pam_winbind(xfce4-screensaver:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'lanazaben')
+Dec 06 20:56:16 kali xfce4-screensaver-dialog[2429787]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 06 21:11:24 kali xfce4-screensaver-dialog[2442996]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 10:13:47 kali xfce4-screensaver-dialog[2477550]: pam_unix(xfce4-screensaver:auth): authentication failure; logname=lanazaben uid=1000 euid=1000 tty=:0.0 ruser= rhost=  user=lanazaben
+Dec 07 10:13:47 kali xfce4-screensaver-dialog[2477550]: pam_winbind(xfce4-screensaver:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Dec 07 10:13:47 kali xfce4-screensaver-dialog[2477550]: pam_winbind(xfce4-screensaver:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'lanazaben')
+Dec 07 10:13:56 kali xfce4-screensaver-dialog[2477709]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 10:52:14 kali xfce4-screensaver-dialog[2496460]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 11:55:43 kali xfce4-screensaver-dialog[2535924]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 14:14:50 kali xfce4-screensaver-dialog[2567823]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 14:53:35 kali xfce4-screensaver-dialog[2916682]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 07 15:08:55 kali xfce4-screensaver-dialog[2920265]: pam_unix(xfce4-screensaver:auth): conversation failed
+Dec 07 15:09:13 kali xfce4-screensaver-dialog[2921047]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 08 09:49:01 kali xfce4-screensaver-dialog[519257]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 08 10:43:27 kali xfce4-screensaver-dialog[565500]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 08 11:41:36 kali xfce4-screensaver-dialog[590283]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 08 15:27:22 kali xfce4-screensaver-dialog[672963]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 14 12:48:08 kali xfce4-screensaver-dialog[699529]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 15 10:36:56 kali xfce4-screensaver-dialog[748732]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 15 11:35:01 kali xfce4-screensaver-dialog[771909]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 15 12:08:59 kali xfce4-screensaver-dialog[779633]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Dec 17 15:58:07 kali xfce4-screensaver-dialog[812440]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted

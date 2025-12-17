@@ -1,0 +1,218 @@
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Oct 19 11:53:11 kali systemd-timesyncd[538]: Contacted time server 82.64.230.205:123 (2.debian.pool.ntp.org).
+Oct 19 11:53:11 kali systemd-timesyncd[538]: Initial clock synchronization to Sun 2025-10-19 11:53:11.529722 IDT.
+Oct 19 15:12:02 kali systemd[1]: Stopping systemd-timesyncd.service - Network Time Synchronization...
+Oct 19 15:12:02 kali systemd[1]: systemd-timesyncd.service: Deactivated successfully.
+Oct 19 15:12:02 kali systemd[1]: Stopped systemd-timesyncd.service - Network Time Synchronization.
+-- Boot 5db5160a5db545aead197b492f537074 --
+Oct 20 11:51:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Oct 20 11:51:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Oct 20 11:51:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Oct 20 11:51:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Oct 20 08:52:04 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (2.debian.pool.ntp.org).
+Oct 20 08:52:04 kali systemd-timesyncd[533]: Initial clock synchronization to Mon 2025-10-20 08:52:04.266781 IDT.
+Nov 09 09:10:50 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 09:10:50 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 12:04:32 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 12:04:32 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 12:35:22 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 12:35:22 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 12:35:22 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 12:35:22 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 14:08:19 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 14:09:11 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 14:12:50 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 14:36:47 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 14:36:53 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 14:37:08 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 14:38:35 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 14:38:50 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 14:39:07 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 14:40:19 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 15:25:06 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 15:25:13 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 15:25:13 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 09 15:25:35 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 09 18:25:59 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 09 19:44:05 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 07:06:09 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 08:16:17 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 08:16:17 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 08:16:29 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 08:16:40 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 08:17:15 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 08:17:50 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 08:17:55 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 08:18:24 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 09:04:23 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 09:04:23 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 09:04:23 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 09:17:24 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 09:17:24 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 09:49:29 kali systemd-timesyncd[533]: Contacted time server 162.159.200.1:123 (0.debian.pool.ntp.org).
+Nov 10 09:49:29 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 09:49:29 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 09:49:31 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 10 09:49:31 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (0.debian.pool.ntp.org).
+Nov 10 13:13:14 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 10 13:13:14 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 12 10:25:17 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 12 10:25:17 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (0.debian.pool.ntp.org).
+Nov 12 10:31:57 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 12 10:32:04 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 12 10:32:04 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (0.debian.pool.ntp.org).
+Nov 14 23:32:12 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 14 23:32:12 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 14 23:32:12 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (0.debian.pool.ntp.org).
+Nov 16 09:25:26 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 16 09:25:27 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 16 09:25:27 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (0.debian.pool.ntp.org).
+Nov 17 09:34:06 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 17 09:34:07 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 17 09:34:09 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 17 09:34:09 kali systemd-timesyncd[533]: Contacted time server 45.140.164.53:123 (0.debian.pool.ntp.org).
+Nov 17 16:00:49 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 17 16:00:49 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 19 09:46:16 kali systemd-timesyncd[533]: Contacted time server 45.140.164.53:123 (0.debian.pool.ntp.org).
+Nov 19 09:46:16 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 19 09:46:16 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 19 09:46:16 kali systemd-timesyncd[533]: Contacted time server 45.140.164.53:123 (0.debian.pool.ntp.org).
+Nov 19 10:29:16 kali systemd-timesyncd[533]: Timed out waiting for reply from 45.140.164.53:123 (0.debian.pool.ntp.org).
+Nov 19 10:29:16 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (1.debian.pool.ntp.org).
+Nov 20 08:02:56 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 20 08:33:22 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 20 08:34:56 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (1.debian.pool.ntp.org).
+Nov 20 09:24:46 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 20 09:24:51 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 20 10:50:29 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (1.debian.pool.ntp.org).
+Nov 20 12:25:31 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 20 12:25:40 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 20 12:28:05 kali systemd-timesyncd[533]: Contacted time server 162.159.200.123:123 (1.debian.pool.ntp.org).
+Nov 20 13:50:43 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 20 13:50:54 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 20 13:51:05 kali systemd-timesyncd[533]: Timed out waiting for reply from 162.159.200.123:123 (1.debian.pool.ntp.org).
+Nov 20 14:06:41 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 20 14:21:29 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 20 14:21:29 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 22 11:06:53 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 22 11:06:53 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 22 11:07:59 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 22 11:07:59 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 22 20:53:35 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 22 20:53:35 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 22 20:53:35 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 22 20:53:35 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 22 22:52:06 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 22 22:52:06 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 23 09:41:32 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 23 09:41:32 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 23 09:41:32 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 23 09:41:32 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 23 15:19:06 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 23 18:35:27 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 23 18:36:09 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 23 21:10:46 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 23 21:27:34 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 23 21:44:17 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 29 16:59:20 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 29 16:59:20 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 29 16:59:20 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 30 07:11:09 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 30 08:07:42 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 30 08:08:20 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 30 08:08:34 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 30 08:22:36 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 30 08:59:40 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Nov 30 15:58:38 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Nov 30 16:37:07 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Nov 30 17:52:08 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 09:19:58 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 09:19:59 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 09:19:59 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 11:55:06 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 11:57:06 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 11:57:06 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 11:59:10 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 12:02:22 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 12:02:23 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 12:02:31 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 12:03:39 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 12:04:47 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 12:04:48 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 12:17:29 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 12:18:12 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 12:18:12 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 12:44:23 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 12:44:28 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 12:48:00 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 13:20:20 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 13:21:30 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 13:21:30 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 13:22:17 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 13:30:22 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 13:30:32 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 13:30:33 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 15:42:46 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 15:48:36 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 16:40:38 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 01 21:58:58 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 01 21:59:04 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 01 21:59:05 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 03 10:09:44 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 03 10:09:44 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 03 10:09:44 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 04 09:53:11 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 04 10:45:21 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 04 10:45:23 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 04 10:45:46 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 04 10:45:51 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 04 10:46:51 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 04 11:22:38 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 04 11:22:38 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 06 20:48:37 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 06 20:48:37 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 06 20:48:37 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 06 20:48:37 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 07 09:52:19 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 07 09:52:20 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 07 09:52:20 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 07 15:28:31 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 07 15:28:41 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 07 15:31:47 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 07 15:31:57 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 07 17:26:43 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 07 17:31:24 kali systemd-timesyncd[533]: Contacted time server 82.64.42.185:123 (2.debian.pool.ntp.org).
+Dec 08 09:41:24 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 08 09:41:24 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 08 09:41:25 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 08 09:41:25 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 08 09:48:31 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 08 09:48:39 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 08 09:48:39 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 14 12:47:53 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 14 12:47:53 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 14 12:47:53 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 15 10:36:52 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 15 10:36:52 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 10:36:52 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 15 10:50:33 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 15 10:50:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 10:50:33 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 15 13:44:05 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 15 13:44:06 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 14:24:55 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 14:24:56 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 15 15:01:23 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 15 15:01:51 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 15:03:20 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 15 15:04:00 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 15 15:04:33 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 15 16:10:10 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Dec 17 15:58:00 kali systemd-timesyncd[533]: No network connectivity, watching for changes.
+Dec 17 15:58:00 kali systemd-timesyncd[533]: Network configuration changed, trying to establish connection.
+Dec 17 15:58:00 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).

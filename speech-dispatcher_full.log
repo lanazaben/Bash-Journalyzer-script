@@ -1,0 +1,14 @@
+Oct 19 14:52:42 kali systemd[1113]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 19 14:52:50 kali systemd[1228]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 19 14:53:00 kali systemd[1113]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 19 14:05:19 kali systemd[1228]: Started speech-dispatcher.service - Common interface to speech synthesizers.
+Oct 19 14:05:19 kali speech-dispatcher[10036]: [Sun Oct 19 14:05:19 2025 : 841602] speechd: Speech Dispatcher 0.12.1 starting
+Oct 19 15:12:01 kali systemd[1228]: Stopping speech-dispatcher.service - Common interface to speech synthesizers...
+Oct 19 15:12:01 kali systemd[1228]: Stopped speech-dispatcher.service - Common interface to speech synthesizers.
+Oct 19 15:12:01 kali systemd[1228]: speech-dispatcher.service: Consumed 1.013s CPU time, 22M memory peak.
+Oct 19 15:12:01 kali systemd[1228]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 20 11:51:35 kali systemd[1211]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 20 11:51:44 kali systemd[1319]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 20 11:51:54 kali systemd[1211]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+Oct 20 10:09:05 kali systemd[1319]: Started speech-dispatcher.service - Common interface to speech synthesizers.
+Oct 20 10:09:05 kali speech-dispatcher[38102]: [Mon Oct 20 10:09:05 2025 : 869246] speechd: Speech Dispatcher 0.12.1 starting

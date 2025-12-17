@@ -1,0 +1,877 @@
+ Journalyzer Summary Report - Wed 17 Dec 2025 16:12:50 IST
+==========================================
+
+Service: accounts-daemon
+------------------------------------------
+Total entries: 10
+First entry: Oct 19 14:52:41 kali systemd[1]: Starting accounts-daemon.service - Accounts Service...
+Last entry:  Oct 20 11:51:33 kali systemd[1]: Started accounts-daemon.service - Accounts Service.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../accounts-daemon_errors.log
+
+Full Log Entries saved to: ../accounts-daemon_full.log
+
+Service: apt-helper
+------------------------------------------
+Total entries: 52
+First entry: Nov 08 13:26:01 kali apt-helper[444109]: E: Sub-process nm-online returned an error code (1)
+Last entry:  Dec 17 15:59:00 kali apt-helper[812665]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 52
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../apt-helper_errors.log
+
+Full Log Entries saved to: ../apt-helper_full.log
+
+Service: at-spi-bus-launcher
+------------------------------------------
+Total entries: 13
+First entry: Oct 19 14:52:43 kali at-spi-bus-launcher[1172]: dbus-daemon[1172]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=124 pid=1139 comm="/usr/sbin/lightdm-gtk-greeter")
+Last entry:  Oct 20 11:51:44 kali at-spi-bus-launcher[1455]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../at-spi-bus-launcher_errors.log
+
+Full Log Entries saved to: ../at-spi-bus-launcher_full.log
+
+Service: colord
+------------------------------------------
+Total entries: 10
+First entry: Oct 19 14:52:51 kali systemd[1]: Starting colord.service - Manage, Install and Generate Color Profiles...
+Last entry:  Oct 20 11:51:44 kali systemd[1]: Started colord.service - Manage, Install and Generate Color Profiles.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 2
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../colord_errors.log
+
+Full Log Entries saved to: ../colord_full.log
+
+Service: cron
+------------------------------------------
+Total entries: 2236
+First entry: Oct 19 14:52:42 kali systemd[1]: Started cron.service - Regular background program processing daemon.
+Last entry:  Dec 17 16:09:01 kali CRON[819928]: pam_unix(cron:session): session closed for user root
+Peak hour: 11
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../cron_errors.log
+
+Full Log Entries saved to: ../cron_full.log
+
+Service: CRON
+------------------------------------------
+Total entries: 2236
+First entry: Oct 19 14:52:42 kali systemd[1]: Started cron.service - Regular background program processing daemon.
+Last entry:  Dec 17 16:09:01 kali CRON[819928]: pam_unix(cron:session): session closed for user root
+Peak hour: 11
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../CRON_errors.log
+
+Full Log Entries saved to: ../CRON_full.log
+
+Service: dbus-daemon
+------------------------------------------
+Total entries: 1583
+First entry: Oct 19 14:52:41 kali dbus-daemon[1005]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.2' (uid=0 pid=1004 comm="/usr/libexec/accounts-daemon")
+Last entry:  Dec 17 15:58:04 kali dbus-daemon[715]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.Avahi.service': Unit dbus-org.freedesktop.Avahi.service not found.
+Peak hour: 11
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 132
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../dbus-daemon_errors.log
+
+Full Log Entries saved to: ../dbus-daemon_full.log
+
+Service: gnome-keyring-d
+------------------------------------------
+Total entries: 17
+First entry: Oct 19 14:52:42 kali systemd[1113]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gnome-keyring-d_errors.log
+
+Full Log Entries saved to: ../gnome-keyring-d_full.log
+
+Service: gnome-keyring-daemon
+------------------------------------------
+Total entries: 15
+First entry: Oct 19 14:52:42 kali systemd[1113]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gnome-keyring-daemon_errors.log
+
+Full Log Entries saved to: ../gnome-keyring-daemon_full.log
+
+Service: gpg-agent
+------------------------------------------
+Total entries: 77
+First entry: Oct 19 14:52:42 kali systemd[1113]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gpg-agent_errors.log
+
+Full Log Entries saved to: ../gpg-agent_full.log
+
+Service: gvfsd-network
+------------------------------------------
+Total entries: 2
+First entry: Nov 02 10:31:26 kali gvfsd-network[416063]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: Failed to spawn the underlying wsdd daemon.
+Last entry:  Nov 02 10:31:26 kali gvfsd-network[416063]: Couldn't create directory monitor on wsdd:///. Error: Automount failed: mountpoint for org.gtk.vfs.mountpoint_wsdd already running
+Peak hour: 10
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 2
+   fail : 2
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gvfsd-network_errors.log
+
+Full Log Entries saved to: ../gvfsd-network_full.log
+
+Service: gvfsd-trash
+------------------------------------------
+Total entries: 110
+First entry: Oct 20 09:38:46 kali gvfsd-trash[1850]: GFileInfo created without standard::name
+Last entry:  Dec 03 10:43:45 kali gvfsd-trash[1850]: file ../../../gio/gfileinfo.c: line 1713 (g_file_info_get_name): should not be reached
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gvfsd-trash_errors.log
+
+Full Log Entries saved to: ../gvfsd-trash_full.log
+
+Service: gvfsd-wsdd
+------------------------------------------
+Total entries: 1
+First entry: Nov 02 10:31:26 kali gvfsd-wsdd[416079]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+Last entry:  Nov 02 10:31:26 kali gvfsd-wsdd[416079]: Failed to spawn the wsdd daemon: Failed to execute child process “wsdd” (No such file or directory)
+Peak hour: 10
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 1
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../gvfsd-wsdd_errors.log
+
+Full Log Entries saved to: ../gvfsd-wsdd_full.log
+
+Service: haveged
+------------------------------------------
+Total entries: 23
+First entry: Oct 19 14:52:41 kali systemd[1]: Started haveged.service - Entropy Daemon based on the HAVEGE algorithm.
+Last entry:  Oct 20 11:51:33 kali haveged[709]: haveged: fills: 0, generated: 0
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../haveged_errors.log
+
+Full Log Entries saved to: ../haveged_full.log
+
+Service: kernel
+------------------------------------------
+Total entries: 2903
+First entry: Oct 19 14:52:40 kali kernel: Booting Linux on physical CPU 0x0000000000 [0x610f0000]
+Last entry:  Dec 17 15:58:04 kali kernel: usb 2-3.2: USB disconnect, device number 35
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 144
+   fatal : 0
+   warn : 2
+
+Error Log Entries saved to: ../kernel_errors.log
+
+Full Log Entries saved to: ../kernel_full.log
+
+Service: lightdm
+------------------------------------------
+Total entries: 24
+First entry: Oct 19 14:52:42 kali systemd[1]: Starting lightdm.service - Light Display Manager...
+Last entry:  Oct 20 11:51:44 kali lightdm[1308]: Failed to write utmpx: No such file or directory
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 1
+   fail : 2
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../lightdm_errors.log
+
+Full Log Entries saved to: ../lightdm_full.log
+
+Service: ModemManager
+------------------------------------------
+Total entries: 14
+First entry: Oct 19 14:52:41 kali systemd[1]: Starting ModemManager.service - Modem Manager...
+Last entry:  Oct 20 11:51:38 kali ModemManager[909]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:15.0/0000:02:00.0': not supported by any plugin
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../ModemManager_errors.log
+
+Full Log Entries saved to: ../ModemManager_full.log
+
+Service: mpris-proxy
+------------------------------------------
+Total entries: 10
+First entry: Oct 19 14:52:42 kali systemd[1113]: mpris-proxy.service - Bluetooth mpris proxy was skipped because of an unmet condition check (ConditionUser=!@system).
+Last entry:  Oct 20 11:51:44 kali systemd[1319]: Started mpris-proxy.service - Bluetooth mpris proxy.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../mpris-proxy_errors.log
+
+Full Log Entries saved to: ../mpris-proxy_full.log
+
+Service: mtp-probe
+------------------------------------------
+Total entries: 136
+First entry: Oct 19 14:52:40 kali mtp-probe[576]: checking bus 2, device 6: "/sys/devices/pci0000:00/0000:00:16.0/0000:0a:00.0/usb2/2-3/2-3.1"
+Last entry:  Dec 17 15:58:04 kali mtp-probe[812398]: bus: 2, device: 36 was not an MTP device
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../mtp-probe_errors.log
+
+Full Log Entries saved to: ../mtp-probe_full.log
+
+Service: NetworkManager
+------------------------------------------
+Total entries: 7
+First entry: Oct 19 14:52:42 kali systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+Last entry:  Oct 20 11:51:34 kali systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../NetworkManager_errors.log
+
+Full Log Entries saved to: ../NetworkManager_full.log
+
+Service: obexd
+------------------------------------------
+Total entries: 7
+First entry: Oct 19 14:52:52 kali obexd[1706]: OBEX daemon 5.82
+Last entry:  Oct 20 11:51:44 kali obexd[1799]: Unable to acquire registry: Error calling StartServiceByName for org.gnome.evolution.dataserver.Sources5: Unit evolution-source-registry.service not found.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 4
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../obexd_errors.log
+
+Full Log Entries saved to: ../obexd_full.log
+
+Service: pipewire
+------------------------------------------
+Total entries: 57
+First entry: Oct 19 14:52:42 kali systemd[1113]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../pipewire_errors.log
+
+Full Log Entries saved to: ../pipewire_full.log
+
+Service: polkitd
+------------------------------------------
+Total entries: 21
+First entry: Oct 19 14:52:41 kali polkitd[1006]: Started polkitd version 126
+Last entry:  Oct 20 11:51:44 kali polkitd[716]: Registered Authentication Agent for unix-session:2 (system bus name :1.45 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IL)
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 4
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../polkitd_errors.log
+
+Full Log Entries saved to: ../polkitd_full.log
+
+Service: rtkit-daemon
+------------------------------------------
+Total entries: 1118
+First entry: Oct 19 14:52:42 kali systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+Last entry:  Dec 15 13:28:33 kali rtkit-daemon[1241]: Supervising 1 threads of 1 processes of 1 users.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../rtkit-daemon_errors.log
+
+Full Log Entries saved to: ../rtkit-daemon_full.log
+
+Service: sm-notify
+------------------------------------------
+Total entries: 2
+First entry: Oct 19 14:52:43 kali sm-notify[1210]: Version 2.8.3 starting
+Last entry:  Oct 20 11:51:34 kali sm-notify[1037]: Version 2.8.3 starting
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../sm-notify_errors.log
+
+Full Log Entries saved to: ../sm-notify_full.log
+
+Service: speech-dispatcher
+------------------------------------------
+Total entries: 14
+First entry: Oct 19 14:52:42 kali systemd[1113]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+Last entry:  Oct 20 10:09:05 kali speech-dispatcher[38102]: [Mon Oct 20 10:09:05 2025 : 869246] speechd: Speech Dispatcher 0.12.1 starting
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../speech-dispatcher_errors.log
+
+Full Log Entries saved to: ../speech-dispatcher_full.log
+
+Service: ssh-agent
+------------------------------------------
+Total entries: 26
+First entry: Oct 19 14:52:42 kali systemd[1113]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../ssh-agent_errors.log
+
+Full Log Entries saved to: ../ssh-agent_full.log
+
+Service: sudo
+------------------------------------------
+Total entries: 1572
+First entry: Oct 19 14:00:49 kali sudo[6857]: lanazaben : TTY=pts/1 ; PWD=/home/lanazaben/Downloads ; USER=root ; COMMAND=/usr/bin/tar -xvzf pycharm-2025.2.3.tar
+Last entry:  Dec 17 16:12:46 kali sudo[824052]: pam_unix(sudo:session): session opened for user root(uid=0) by lanazaben(uid=1000)
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 2
+   fail : 2
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../sudo_errors.log
+
+Full Log Entries saved to: ../sudo_full.log
+
+Service: systemd
+------------------------------------------
+Total entries: 3
+First entry: Oct 19 14:52:40 kali systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Last entry:  Oct 20 11:51:32 kali systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Peak hour: 5db5160a5db545aead197b492f537074
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd_errors.log
+
+Full Log Entries saved to: ../systemd_full.log
+
+Service: systemd-fsck
+------------------------------------------
+Total entries: 1
+First entry: -- No entries --
+Last entry:  -- No entries --
+Peak hour: entries
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-fsck_errors.log
+
+Full Log Entries saved to: ../systemd-fsck_full.log
+
+Service: systemd-journald
+------------------------------------------
+Total entries: 17
+First entry: Oct 19 14:52:40 kali systemd-journald[512]: Collecting audit messages is disabled.
+Last entry:  Oct 20 08:52:04 kali systemd-journald[509]: Time jumped backwards, rotating.
+Peak hour: 11
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-journald_errors.log
+
+Full Log Entries saved to: ../systemd-journald_full.log
+
+Service: systemd-logind
+------------------------------------------
+Total entries: 58
+First entry: Oct 19 14:52:41 kali systemd[1]: Starting systemd-logind.service - User Login Management...
+Last entry:  Dec 17 15:58:04 kali systemd-logind[718]: Watching system buttons on /dev/input/event8 (VMware VMware Virtual USB Keyboard)
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-logind_errors.log
+
+Full Log Entries saved to: ../systemd-logind_full.log
+
+Service: systemd-modules-load
+------------------------------------------
+Total entries: 2
+First entry: Oct 19 15:12:02 kali systemd[1]: systemd-modules-load.service: Deactivated successfully.
+Last entry:  Oct 19 15:12:02 kali systemd[1]: Stopped systemd-modules-load.service - Load Kernel Modules.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-modules-load_errors.log
+
+Full Log Entries saved to: ../systemd-modules-load_full.log
+
+Service: systemd-networkd
+------------------------------------------
+Total entries: 2
+First entry: Nov 09 09:10:50 kali systemd[1]: Starting systemd-networkd-persistent-storage.service - Enable Persistent Storage in systemd-networkd...
+Last entry:  Nov 09 09:10:50 kali systemd[1]: Finished systemd-networkd-persistent-storage.service - Enable Persistent Storage in systemd-networkd.
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-networkd_errors.log
+
+Full Log Entries saved to: ../systemd-networkd_full.log
+
+Service: systemd-networkd-wait-online
+------------------------------------------
+Total entries: 49
+First entry: Nov 09 23:47:06 kali systemd-networkd-wait-online[582671]: Timeout occurred while waiting for network connectivity.
+Last entry:  Dec 17 15:59:00 kali systemd-networkd-wait-online[812667]: Timeout occurred while waiting for network connectivity.
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-networkd-wait-online_errors.log
+
+Full Log Entries saved to: ../systemd-networkd-wait-online_full.log
+
+Service: systemd-random-seed
+------------------------------------------
+Total entries: 8
+First entry: Oct 19 14:52:40 kali systemd-random-seed[528]: Kernel entropy pool is not initialized yet, waiting until it is.
+Last entry:  Oct 20 11:51:33 kali systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-random-seed_errors.log
+
+Full Log Entries saved to: ../systemd-random-seed_full.log
+
+Service: systemd-shutdown
+------------------------------------------
+Total entries: 2
+First entry: Oct 19 15:12:02 kali systemd-shutdown[1]: Syncing filesystems and block devices.
+Last entry:  Oct 19 15:12:02 kali systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+Peak hour: 15
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-shutdown_errors.log
+
+Full Log Entries saved to: ../systemd-shutdown_full.log
+
+Service: systemd-sslh-generator
+------------------------------------------
+Total entries: 2
+First entry: Oct 19 14:52:40 kali systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+Last entry:  Oct 20 11:51:32 kali systemd-sslh-generator: Configuration directory '/etc/sslh/' does not exist! No units generated.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-sslh-generator_errors.log
+
+Full Log Entries saved to: ../systemd-sslh-generator_full.log
+
+Service: systemd-sysv-generator
+------------------------------------------
+Total entries: 24
+First entry: Oct 19 14:52:40 kali systemd-sysv-generator[489]: SysV service '/etc/init.d/dns2tcp' lacks a native systemd unit file, automatically generating a unit file for compatibility.
+Last entry:  Oct 20 11:51:32 kali systemd-sysv-generator[486]: ! This compatibility logic is deprecated, expect removal soon. !
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-sysv-generator_errors.log
+
+Full Log Entries saved to: ../systemd-sysv-generator_full.log
+
+Service: systemd-timesyncd
+------------------------------------------
+Total entries: 218
+First entry: Oct 19 14:52:41 kali systemd-timesyncd[538]: Network configuration changed, trying to establish connection.
+Last entry:  Dec 17 15:58:00 kali systemd-timesyncd[533]: Contacted time server 37.187.150.174:123 (0.debian.pool.ntp.org).
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-timesyncd_errors.log
+
+Full Log Entries saved to: ../systemd-timesyncd_full.log
+
+Service: systemd-tmpfiles
+------------------------------------------
+Total entries: 21
+First entry: Oct 19 14:08:30 kali systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Last entry:  Dec 07 10:22:30 kali systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-tmpfiles_errors.log
+
+Full Log Entries saved to: ../systemd-tmpfiles_full.log
+
+Service: systemd-udevd
+------------------------------------------
+Total entries: 129
+First entry: Oct 19 14:52:40 kali systemd-udevd[544]: Using default interface naming scheme 'v257'.
+Last entry:  Dec 17 15:58:04 kali mtp-probe[812398]: bus: 2, device: 36 was not an MTP device
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../systemd-udevd_errors.log
+
+Full Log Entries saved to: ../systemd-udevd_full.log
+
+Service: udisksd
+------------------------------------------
+Total entries: 6
+First entry: Oct 19 14:52:52 kali udisksd[1719]: udisks daemon version 2.10.90 starting
+Last entry:  Oct 20 09:38:51 kali udisksd[1797]: Mounted /dev/sr0 (system) at /media/cdrom0 on behalf of uid 1000
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 0
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../udisksd_errors.log
+
+Full Log Entries saved to: ../udisksd_full.log
+
+Service: unix_chkpwd
+------------------------------------------
+Total entries: 4
+First entry: Nov 16 11:33:45 kali unix_chkpwd[736995]: password check failed for user (lanazaben)
+Last entry:  Dec 07 10:13:47 kali unix_chkpwd[2477622]: password check failed for user (lanazaben)
+Peak hour: 20
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 0
+   fail : 4
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../unix_chkpwd_errors.log
+
+Full Log Entries saved to: ../unix_chkpwd_full.log
+
+Service: wireplumber
+------------------------------------------
+Total entries: 29
+First entry: Oct 19 14:52:42 kali systemd[1113]: Started wireplumber.service - Multimedia Service Session Manager.
+Last entry:  Oct 20 11:51:54 kali systemd[1211]: Stopped wireplumber.service - Multimedia Service Session Manager.
+Peak hour: 14
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 4
+   fail : 4
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../wireplumber_errors.log
+
+Full Log Entries saved to: ../wireplumber_full.log
+
+Service: xfce4-screensaver-dialog
+------------------------------------------
+Total entries: 216
+First entry: Oct 19 14:29:50 kali xfce4-screensaver-dialog[22579]: pam_unix(xfce4-screensaver:auth): conversation failed
+Last entry:  Dec 17 15:58:07 kali xfce4-screensaver-dialog[812440]: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted
+Peak hour: 09
+Keyword counts:
+   emergency : 0
+   alert : 0
+   critical : 0
+   error : 4
+   fail : 103
+   fatal : 0
+   warn : 0
+
+Error Log Entries saved to: ../xfce4-screensaver-dialog_errors.log
+
+Full Log Entries saved to: ../xfce4-screensaver-dialog_full.log
+
